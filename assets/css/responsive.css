@@ -1,0 +1,142 @@
+@media only screen and (min-width:992px) {
+    .page-header {
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    #navbarSupportedContent {
+        position: absolute;
+        right: 25px;
+        background: #fff;
+        text-align: right;
+        padding: 10px 15px;
+        border-radius: 5px;
+        box-shadow: 0 20px 40px -5px rgba(9, 30, 66, 0.30);
+    }
+    .navbar-nav .dropdown-menu {
+        box-shadow: none;
+        padding: 0;
+    }
+    #navbarSupportedContent .default-btn {
+        padding: 5px 10px;
+        margin: 0;
+    }
+    .dropdown-menu {
+        text-align: right;
+    }
+    .navbar-nav .nav-item .nav-link,
+    .navbar-nav .dropdown-menu a {
+        padding: 10px 15px;
+        font-size: 1em;
+        ;
+    }
+    .navbar-nav .dropdown-menu {
+        margin-top: 0;
+        text-transform: none;
+    }
+    .mb-80 {
+        margin-bottom: 50px!important;
+    }
+    .mt-80 {
+        margin-top: 50px!important;
+    }
+    .main-banner {
+        background-position: top right;
+    }
+    .pl-100 {
+        padding-left: 15px!important;
+    }
+    .pr-100,
+    .main-banner .pr-30.text-right {
+        padding-right: 15px!important;
+    }
+    .others-options {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .page-content {
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .navbar {
+        padding-top: 5px;
+        padding-left: 15px;
+        padding-right: 15px
+    }
+    .navbar-brand {
+        font-size: 35px
+    }
+    .navbar-light .navbar-toggler {
+        color: #38d16a;
+        border-color: #38d16a;
+        outline: 0!important;
+        border-radius: 0
+    }
+    .navbar-light .navbar-nav {
+        background: #fff;
+        padding: 15px 15px 10px;
+        border: 1px solid #eee;
+        border-bottom: none
+    }
+    .default-btn-two {
+        margin-bottom: 12px
+    }
+    .navbar-nav .nav-item .nav-link {
+        padding: 5px 10px
+    }
+    .navbar-light .others-options {
+        background-color: #fff;
+        border: 1px solid #eee;
+        border-top: none;
+        padding: 0 15px 15px
+    }
+    .main-banner {
+        background: #f7f8f9;
+        position: relative;
+        padding: 50px 0;
+    }
+    .quick-features {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .navbar {
+        margin-top: 0;
+    }
+    .main-banner {
+        text-align: center;
+    }
+    .main-banner h1 {
+        font-size: 1.8rem
+    }
+    .main-banner h1 span.text-large {
+        font-size: 2.2rem
+    }
+    .mb-80 {
+        margin-bottom: 30px!important;
+    }
+    .mt-80 {
+        margin-top: 30px!important;
+    }
+    .section-title-bg {
+        font-size: 60px;
+    }
+    .quick-features {
+        margin-top: -30px;
+    }
+    footer .nav-footer,
+    footer .text-copyright {
+        margin: 0 0 30px 0;
+    }
+    .footer-default.pb-100,
+    .footer-default.pt-50 {
+        padding: 0 !important;
+    }
+    .page-header {
+        margin-top: 50px;
+    }
+}
